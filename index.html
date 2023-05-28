@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    
+    input[type="text"] {
+      padding: 5px;
+      width: 200px;
+    }
+    
+    #posts {
+      margin-top: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    ul li {
+      margin-bottom: 5px;
+    }
+    
+    ul li h2 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    
+    ul li b {
+      color: #666;
+    }
+    
+    #message, #greeting {
+      margin-top: 20px;
+      color: #333;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fetch App:
+    Fill in the respective details to retrieve the desired infromation.
+  </h1>
+  
+  <button id="getData">Get data</button>
+  <button id="getList">Get list</button>
+  <br/><br/>
+  
+  <form id="myForm">
+    <input type="text" name="firstname" id="firstname" value="Name" />
+    <input type="text" name="lastname" id="lastname" value="Surname" />
+    <button id="submitForm">Submit</button>
+  </form>
+  
+  <p id="posts"></p>
+  <p id="message"></p>
+  <p id="greeting"></p>
+  
+  <script>
+    // JavaScript code here...
+  </script>
+</body>
+</html>
